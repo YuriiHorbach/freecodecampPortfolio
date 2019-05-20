@@ -41,6 +41,7 @@ grid-area: nav;
 .container, .row.justify-content-center.align-items-center {
   height: 100%;
   min-height: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 
  $mainColor:#008080;
@@ -53,6 +54,8 @@ grid-area: nav;
  }
 
  .menu{
+    height: 50px;
+    background: #E0EBE8;
 
     li{
       padding-right: 70px;
@@ -73,6 +76,37 @@ grid-area: nav;
  }
 
  .mainScreen{
-   
-     
  }
+
+ .projects{
+    color: #008080;
+    
+    h2{
+      font-size: 1.3rem;
+
+    }
+
+     .projects__block{
+    width: 220px;
+    height: 175px;
+    border: 2px solid lightblue;
+    margin-top: 55px;
+
+    .projects__img{
+      padding: 2px 0;
+    }
+
+    .projects__title{
+      padding: 4px 0;
+      border-top: 2px solid lightblue;
+      font-weight: bold;
+    }
+ }
+   
+ }
+   
+
+  
+ 
+   
+
