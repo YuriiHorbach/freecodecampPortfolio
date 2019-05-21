@@ -123,43 +123,50 @@ html, body {
     background: #22313F;
     color: #fff;
     letter-spacing: -0.5px;
-    /* .footer__span{
-      font-size: 10px;
-    } */
 
     sup{
       font-size: 12px;
     }
-
     a{
       color: #fff;
       text-decoration: underline;
-
       &:hover{
-        
         color: #fff;
+      }
+    }
+ }
+
+ @media screen and (min-width: 576px) {
+    .connection__item{
+      margin: 20px 0;
+    }
+}
+
+
+@media (max-width: 575.98px) { 
+  body{
+    min-width: 350px; 
+    .menu{
+
+      li{
+        margin-right: 0;
+      }
+
+      .nav-item{
+         padding-right: 5px;
+         display:block;
+         margin:10px auto;
       }
 
     }
 
-
- }
-
- @media screen and (min-width: 576px) {
-
-
-
-    .connection__item{
-      margin: 20px 0;
-    }
-
-
+  }
 }
 
 
 
 
-.menu li
+
 
  
    
