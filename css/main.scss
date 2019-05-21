@@ -1,41 +1,4 @@
-/* body {
-  display: grid;
-  grid-template-areas:
-  "header"
-  "nav"
-  "pageMain"
-  "article"
-  "footer";
-  grid-template-rows: repeat(1, 1fr);
-  grid-template-columns: repeat(1, 1fr);
-  grid-auto-rows: 1fr;
-  grid-gap: 10px;
-  height: 100vh;
-  margin: 0;
-}
-header, footer, article, nav, div {
-padding: 20px;
-background: gold;
-}
-#pageHeader {
-  grid-area: header;
-}
-#pageMain{
-  grid-area: pageMain;
-}
-
-#pageFooter {
-grid-area: footer;
-}
-#mainArticle {
-grid-area: article;
-}
-#mainNav {
-grid-area: nav;
-}
- */
-
- html, body {
+html, body {
   height: 100%;
 }
 .container, .row.justify-content-center.align-items-center {
@@ -114,31 +77,89 @@ grid-area: nav;
       border-radius: 4px;
       font-size: 700;
       color: #008080;
+      cursor: pointer;
     }
    
  }
 
- 
-
  .connection{
-  margin-top: 100px;
+  margin-top: 50px;
+  padding: 100px;
+  .connection__header{
+    margin-bottom: 60px;
+  }
 
   background: #C8F7C5;
     .connection__item{
-      display: inline-block;
-      width: 100px;
-      height: 100px;
+      width: 120px;
+      height: 120px;
       background: #E0EBE8;
-      line-height: 100px;
+      line-height: 120px;
       text-align: center;
       border-radius: 50%;
      /*  margin-right: 40px !important; */
-      margin: 150px 0;
-      border: 2px solid #90C695;
+      /* margin: 150px 0; */
+      border: 4px solid #90C695;
       list-style: none;
+      margin: 20px auto;
+      
+
+      a{
+        font-size: 1.10em;
+        font-weight: 700;
+       
+      }
+
+      a:hover{
+        text-decoration: none;
+        
+      }
     }
  }
 
+ footer{
+    font-weight: 400;
+    font-size: 1.20em;
+    background: #22313F;
+    color: #fff;
+    letter-spacing: -0.5px;
+    /* .footer__span{
+      font-size: 10px;
+    } */
+
+    sup{
+      font-size: 12px;
+    }
+
+    a{
+      color: #fff;
+      text-decoration: underline;
+
+      &:hover{
+        
+        color: #fff;
+      }
+
+    }
+
+
+ }
+
+ @media screen and (min-width: 576px) {
+
+
+
+    .connection__item{
+      margin: 20px 0;
+    }
+
+
+}
+
+
+
+
+.menu li
 
  
    
