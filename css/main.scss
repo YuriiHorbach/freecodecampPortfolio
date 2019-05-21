@@ -75,9 +75,6 @@ grid-area: nav;
    }
  }
 
- .mainScreen{
- }
-
  .projects{
     color: #008080;
     
@@ -87,23 +84,63 @@ grid-area: nav;
     }
 
      .projects__block{
-    width: 220px;
-    height: 175px;
-    border: 2px solid lightblue;
-    margin-top: 55px;
+        width: 220px;
+        height: 175px;
+        border: 2px solid lightblue;
+        margin-top: 55px;
 
-    .projects__img{
-      padding: 2px 0;
-    }
+        .projects__img{
+          padding: 2px 0;
+        }
 
-    .projects__title{
-      padding: 4px 0;
-      border-top: 2px solid lightblue;
-      font-weight: bold;
+        .projects__title{
+          padding: 4px 0;
+          border-top: 2px solid lightblue;
+          font-weight: bold;
+        }
+
+        .projects__button{
+          width: 200px;
+          height: 45px;
+        }
+      }
+
+ .projects__button{
+      width: 200px;
+      height: 45px;
+      margin-top: 50px;
+      background: #e0ebe8;
+      border: 2px solid #90C695;
+      border-radius: 4px;
+      font-size: 700;
+      color: #008080;
     }
- }
    
  }
+
+ 
+
+ .connection{
+  margin-top: 100px;
+
+  background: #C8F7C5;
+    .connection__item{
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background: #E0EBE8;
+      line-height: 100px;
+      text-align: center;
+      border-radius: 50%;
+     /*  margin-right: 40px !important; */
+      margin: 150px 0;
+      border: 2px solid #90C695;
+      list-style: none;
+    }
+ }
+
+
+ 
    
 
   
